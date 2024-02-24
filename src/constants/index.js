@@ -42,6 +42,14 @@ import {
       id: "contact",
       title: "Contact",
     },
+    {
+      id: "downloadCV",
+      title: "Download CV",
+    },
+    {
+      id: "linkedin",
+      title: "LinkedIn",
+    },
   ];
   
   const services = [
