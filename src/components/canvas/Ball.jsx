@@ -49,4 +49,4 @@ const BallCanvas = ({ icon }) => {
   )
 }
 
-export default BallCanvas
+export default BallCanvas;

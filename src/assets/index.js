@@ -30,6 +30,10 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import xyLogo from "./xy.svg";
+import linkedIn from './linkedIn.svg';
+import resume from './Xinqi_Resume.pdf';
+
 export {
   logo,
   backend,
@@ -59,4 +63,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  xyLogo,
+  linkedIn,
+  resume,
 };
