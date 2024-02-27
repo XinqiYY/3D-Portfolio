@@ -20,11 +20,16 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import java from "./tech/java.png";
+import python from "./tech/python.png";
+import aws from "./tech/aws.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import amazon from './company/amazon.png'; 
+import susubeauty from './company/susubeauty.png';
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -33,6 +38,8 @@ import tripguide from "./tripguide.png";
 import xyLogo from "./xy.svg";
 import linkedIn from './linkedIn.svg';
 import resume from './Xinqi_Resume.pdf';
+import aiApp from './ai_image_generation.png';
+import comingsoon from './comingsoon.png';
 
 export {
   logo,
@@ -66,4 +73,11 @@ export {
   xyLogo,
   linkedIn,
   resume,
+  amazon,
+  susubeauty,
+  java,
+  python,
+  aws,
+  aiApp,
+  comingsoon,
 };

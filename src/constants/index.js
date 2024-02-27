@@ -23,6 +23,13 @@ import {
     jobit,
     tripguide,
     threejs,
+    susubeauty,
+    amazon,
+    aws,
+    java,
+    python,
+    aiApp,
+    comingsoon,
   } from "../assets";
   
   export const navLinks = [
@@ -58,56 +65,68 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
       title: "Backend Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "Full Stack Developer",
+      icon: mobile,
     },
+    // {
+    //   title: "Content Creator",
+    //   icon: creator,
+    // },
   ];
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
+      name: "Java",
+      icon: java,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "Python",
+      icon: python,
     },
     {
-      name: "JavaScript",
-      icon: javascript,
+      name: "AWS",
+      icon: aws,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+    // {
+    //   name: "HTML 5",
+    //   icon: html,
+    // },
+    // {
+    //   name: "CSS 3",
+    //   icon: css,
+    // },
+    // {
+    //   name: "JavaScript",
+    //   icon: javascript,
+    // },
+    // {
+    //   name: "TypeScript",
+    //   icon: typescript,
+    // },
     {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
+    // {
+    //   name: "Redux Toolkit",
+    //   icon: redux,
+    // },
+    // {
+    //   name: "Tailwind CSS",
+    //   icon: tailwind,
+    // },
+    // {
+    //   name: "Node JS",
+    //   icon: nodejs,
+    // },
+    // {
+    //   name: "MongoDB",
+    //   icon: mongodb,
+    // },
     {
       name: "Three JS",
       icon: threejs,
@@ -116,22 +135,22 @@ import {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    // {
+    //   name: "figma",
+    //   icon: figma,
+    // },
+    // {
+    //   name: "docker",
+    //   icon: docker,
+    // },
   ];
   
   const experiences = [
     {
       title: "Full Stack Web Developer",
       company_name: "Comet Beauty",
-      icon: meta,
-      iconBg: "#383E56",
+      icon: susubeauty,
+      iconBg: "#000000",
       date: "July 2023 - Present",
       points: [
         "Design, build, and launch an interactive full-stack website for a beauty salon with 2000+ customers, engaging customer traffic and appointment management.",
@@ -145,8 +164,8 @@ import {
     {
       title: "Java Full Stack Developer",
       company_name: "Comet Beauty",
-      icon: meta,
-      iconBg: "#E6DEDD",
+      icon: susubeauty,
+      iconBg: "#000000",
       date: "Nov 2023 - Jan 2024",
       points: [
         "Designed and developed a comprehensive internal full-stack web application for users to manage members.",
@@ -159,8 +178,8 @@ import {
     {
       title: "Software Developer Intern",
       company_name: "Amazon Robotics",
-      icon: meta,
-      iconBg: "#383E56",
+      icon: amazon,
+      iconBg: "#E6DEDD",
       date: "July 2022 - Dec 2022",
       points: [
         "Designed and implemented a UI-centric web application to allow users to create, update, and retrieve ETL job definitions and utilized an internal library to validate SQL syntax.",
@@ -201,9 +220,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "AI Image Generation",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web application that utilized OpenAI API for the user to generate images.",
       tags: [
         {
           name: "react",
@@ -214,55 +233,105 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Node.js",
           color: "pink-text-gradient",
         },
+        {
+          name: "dall-e api",
+          color: "orange-text-gradient",
+        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: aiApp,
+      source_code_link: "https://github.com/XinqiYY/Dall-E",
     },
     {
-      name: "Job IT",
+      name: "Comet Beauty",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application for users to reduce the service intro and simplify membership management. (Coming soon)",
       tags: [
+        {
+          name: "java",
+          color: "blue-text-gradient",
+        },
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
+          name: "spring boot",
+          color: "orange-text-gradient",
         },
         {
-          name: "scss",
+          name: "mysql",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: comingsoon,
+      source_code_link: "https://github.com/CometBeautySu/CometBeauty",
     },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
+    // {
+    //   name: "Car Rent",
+    //   description:
+    //     "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    //   tags: [
+    //     {
+    //       name: "react",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "mongodb",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "tailwind",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: carrent,
+    //   source_code_link: "https://github.com/",
+    // },
+    // {
+    //   name: "Job IT",
+    //   description:
+    //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    //   tags: [
+    //     {
+    //       name: "react",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "restapi",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "scss",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: jobit,
+    //   source_code_link: "https://github.com/",
+    // },
+    // {
+    //   name: "Trip Guide",
+    //   description:
+    //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    //   tags: [
+    //     {
+    //       name: "nextjs",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "supabase",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "css",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: tripguide,
+    //   source_code_link: "https://github.com/",
+    // },
   ];
   
   export { services, technologies, experiences, testimonials, projects };

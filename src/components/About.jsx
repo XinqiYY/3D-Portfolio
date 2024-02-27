@@ -43,14 +43,28 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        As a skilled software developer, I have extensive experience in web development 
+        with a focus on technologies such as HTML5, CSS, JavaScript, React, and Web API.
+        <br/><br/>
+
+        I am also experienced with cloud computing using AWS, and have familiarity with 
+        version control systems such as Git. <br/><br/>
+
+        My technical expertise extends to programming languages like Java, Python, 
+        and SQL, allowing me to work on a variety of projects across multiple platforms.
+        I am particularly skilled in React and have a passion for delivering business 
+        solutions by designing and developing robust, secure applications. In addition 
+        to my technical expertise, I am a highly motivated and detail-oriented individual 
+        with a commitment to staying up-to-date with the latest technologies. <br/><br/>
+
+        My experience in Agile methodologies has allowed me to be a great collaborator, 
+        and I am able to work well in a team environment, delivering high-quality work 
+        on time. Overall, my expertise in web development, cloud, programming languages, 
+        and Agile methodologies, along with my proficiency in React, make me a valuable 
+        asset to any team I work with.
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='mt-20 flex flex-wrap gap-10 items-center'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

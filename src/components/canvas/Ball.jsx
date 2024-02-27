@@ -11,7 +11,7 @@ const Ball = (props) => {
       rotationIntensity={1}
       floatIntensity={5}
     >
-      <ambientLight intensity={0.75} />
+      <ambientLight intensity={0.55} />
       <directionalLight position={[0, 0, 0.05]} />
       <mesh castShadow receiveShadow scale={2.75}>
         <icosahedronGeometry args={[1, 1]} />
@@ -35,7 +35,7 @@ const Ball = (props) => {
 const BallCanvas = ({ icon }) => {
   return (
     <Canvas
-      frameloop="demand"
+      frameloop="always"
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
